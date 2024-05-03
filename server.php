@@ -8,6 +8,7 @@ $paragraph_length = strlen($paragraph);
 
 $new_paragraph = str_replace($word, '***', $paragraph);
 $new_paragraph_length = strlen($new_paragraph);
+$substitutions_number = substr_count($new_paragraph, '***');
 
 
 ?>
@@ -30,6 +31,9 @@ $new_paragraph_length = strlen($new_paragraph);
         <?php echo $new_paragraph ?>
         <h5>Nuova lunghezza paragrafo:</h5>
         <?php echo $new_paragraph_length ?>
+
+        <h5>Numero totale sostituzioni:</h5>
+        <?php echo $substitutions_number ?>
     </main>
 </body>
 </html>

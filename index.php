@@ -9,7 +9,7 @@
     <main>
         <form action="./server.php" method="POST">
             <p>
-                <label for="paragraph">Testo:</label><br>
+                <label for="paragraph">Paragrafo:</label><br>
                 <textarea name="paragraph" id="paragraph" placeholder="Il tuo testo" rows="10" cols="30"></textarea>
             </p>
             <p>
